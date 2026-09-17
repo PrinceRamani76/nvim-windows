@@ -1,0 +1,28 @@
+
+# Neovim swap/backup/undo files
+*.swp
+*.swo
+*.swn
+*.bak
+*.tmp
+*.undo
+
+# Plugin manager files (optional to ignore)
+# Uncomment if you don’t want to track plugins themselves
+# lua/lazy/              # If using lazy.nvim
+# pack/                  # For native packadd plugin setups
+
+# Node.js junk (if Prettier or ESLint were used here)
+node_modules/
+package-lock.json
+
+# Lockfile from lazy.nvim (keep this if you want plugin version lock!)
+# Uncomment to ignore if you don’t care about version locking
+# lazy-lock.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
