@@ -13,11 +13,13 @@ if not exist "%LOCALAPPDATA%\nvim" (
     mkdir "%LOCALAPPDATA%\nvim"
 )
 
+
 xcopy "D:\ggg\nvim\*" "%LOCALAPPDATA%\nvim\" /E /I /Y /H
 
 echo.
 echo Installing fzf...
 winget install --id junegunn.fzf --exact
+winget install --id sharkdp.fd --exact
 
 echo.
 echo Done!
