@@ -29,4 +29,14 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
     "ibhagwan/fzf-lua",
     "oskarnurm/koda.nvim",
+    {
+            "windwp/nvim-ts-autotag",
+            event = "InsertEnter",
+            config = true
+    },
+    {
+            'windwp/nvim-autopairs',
+            event = "InsertEnter",
+            config = true
+    },
 })
